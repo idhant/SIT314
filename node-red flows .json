@@ -1,0 +1,4931 @@
+[
+    {
+        "id": "ea5055dc.e5fc38",
+        "type": "tab",
+        "label": "Zigbee Admin panel",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "472ddc17.a853c4",
+        "type": "tab",
+        "label": "Room-1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "a393d8a7.2b0938",
+        "type": "tab",
+        "label": "Room-2",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "ba5417c3.6eda38",
+        "type": "tab",
+        "label": "Room-3",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "6dba2425.ee666c",
+        "type": "tab",
+        "label": "Zigbee Mqtt",
+        "disabled": true,
+        "info": ""
+    },
+    {
+        "id": "835678ec.519158",
+        "type": "tab",
+        "label": "Zigbee Map network",
+        "disabled": true,
+        "info": ""
+    },
+    {
+        "id": "3283d153.cb5fde",
+        "type": "subflow",
+        "name": "Network Map (4)",
+        "info": "",
+        "category": "Zigbee2MQTT Admin Panel",
+        "in": [],
+        "out": []
+    },
+    {
+        "id": "ec474757.e721f8",
+        "type": "subflow",
+        "name": "Pairing Notifications (5)",
+        "info": "",
+        "category": "Zigbee2MQTT Admin Panel",
+        "in": [],
+        "out": []
+    },
+    {
+        "id": "305d03de.0397fc",
+        "type": "subflow",
+        "name": "Devices (5)",
+        "info": "",
+        "category": "Zigbee2MQTT Admin Panel",
+        "in": [],
+        "out": []
+    },
+    {
+        "id": "c9f1e62c.0da758",
+        "type": "subflow",
+        "name": "Status (5)",
+        "info": "",
+        "category": "Zigbee2MQTT Admin Panel",
+        "in": [],
+        "out": []
+    },
+    {
+        "id": "584a9744.73d208",
+        "type": "subflow",
+        "name": "Logging Level (5)",
+        "info": "",
+        "category": "Zigbee2MQTT Admin Panel",
+        "in": [],
+        "out": []
+    },
+    {
+        "id": "3e65c160.7f8c2e",
+        "type": "subflow",
+        "name": "Remove Device (5)",
+        "info": "",
+        "category": "Zigbee2MQTT Admin Panel",
+        "in": [],
+        "out": []
+    },
+    {
+        "id": "2c222a94.ee7cf6",
+        "type": "subflow",
+        "name": "Permit Join (5)",
+        "info": "",
+        "category": "Zigbee2MQTT Admin Panel",
+        "in": [],
+        "out": []
+    },
+    {
+        "id": "174fe80a.f8c5e8",
+        "type": "subflow",
+        "name": "Rename Device (5)",
+        "info": "",
+        "category": "Zigbee2MQTT Admin Panel",
+        "in": [],
+        "out": []
+    },
+    {
+        "id": "45739994.4c4218",
+        "type": "subflow",
+        "name": "Network Map (4) (2)",
+        "info": "",
+        "category": "Zigbee2MQTT Admin Panel",
+        "in": [],
+        "out": []
+    },
+    {
+        "id": "b3bdfce8.41f78",
+        "type": "subflow",
+        "name": "Pairing Notifications (5) (2)",
+        "info": "",
+        "category": "Zigbee2MQTT Admin Panel",
+        "in": [],
+        "out": []
+    },
+    {
+        "id": "d955ae5f.5e0b1",
+        "type": "subflow",
+        "name": "Devices (5) (2)",
+        "info": "",
+        "category": "Zigbee2MQTT Admin Panel",
+        "in": [],
+        "out": []
+    },
+    {
+        "id": "74a0863d.1d22f8",
+        "type": "subflow",
+        "name": "Status (5) (2)",
+        "info": "",
+        "category": "Zigbee2MQTT Admin Panel",
+        "in": [],
+        "out": []
+    },
+    {
+        "id": "d95fdee9.7be0f",
+        "type": "subflow",
+        "name": "Logging Level (5) (2)",
+        "info": "",
+        "category": "Zigbee2MQTT Admin Panel",
+        "in": [],
+        "out": []
+    },
+    {
+        "id": "1a47b370.57332d",
+        "type": "subflow",
+        "name": "Remove Device (5) (2)",
+        "info": "",
+        "category": "Zigbee2MQTT Admin Panel",
+        "in": [],
+        "out": []
+    },
+    {
+        "id": "b78ee140.f05c5",
+        "type": "subflow",
+        "name": "Permit Join (5) (2)",
+        "info": "",
+        "category": "Zigbee2MQTT Admin Panel",
+        "in": [],
+        "out": []
+    },
+    {
+        "id": "f21c8ad7.95f578",
+        "type": "subflow",
+        "name": "Rename Device (5) (2)",
+        "info": "",
+        "category": "Zigbee2MQTT Admin Panel",
+        "in": [],
+        "out": []
+    },
+    {
+        "id": "370c6c19.8c59f4",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "",
+        "broker": "192.168.0.5",
+        "port": "8883",
+        "tls": "cbb1efd8.1945e",
+        "clientid": "",
+        "usetls": true,
+        "compatmode": true,
+        "keepalive": "15",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "cbb1efd8.1945e",
+        "type": "tls-config",
+        "z": "",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "m2mqtt_srv.crt",
+        "keyname": "m2mqtt_srv.key",
+        "caname": "m2mqtt_ca.crt",
+        "servername": "",
+        "verifyservercert": false
+    },
+    {
+        "id": "d7edc9cc.3c0368",
+        "type": "ui_group",
+        "z": "305d03de.0397fc",
+        "name": "Devices",
+        "tab": "8a847acd.0763c8",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "3e62e78.a9b9f18",
+        "type": "ui_group",
+        "z": "584a9744.73d208",
+        "name": "Logging Level",
+        "tab": "8a847acd.0763c8",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "940f2a05.a6c368",
+        "type": "ui_group",
+        "z": "3e65c160.7f8c2e",
+        "name": "Remove Device",
+        "tab": "8a847acd.0763c8",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "46477c08.642344",
+        "type": "ui_group",
+        "z": "d955ae5f.5e0b1",
+        "name": "Devices",
+        "tab": "f63618e8.0abe88",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "be7a4414.8557a8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Status",
+        "tab": "f63618e8.0abe88",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "3c349988.d786b6",
+        "type": "ui_group",
+        "z": "d95fdee9.7be0f",
+        "name": "Logging Level",
+        "tab": "f63618e8.0abe88",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "6bd497d3.c84228",
+        "type": "ui_group",
+        "z": "1a47b370.57332d",
+        "name": "Remove Device",
+        "tab": "f63618e8.0abe88",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "acc98df6.a686f",
+        "type": "ui_group",
+        "z": "",
+        "name": "Permit Join",
+        "tab": "f63618e8.0abe88",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "556a0b25.997b34",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "",
+        "broker": "192.168.0.5",
+        "port": "8883",
+        "tls": "f26da417.aa4e58",
+        "clientid": "",
+        "usetls": true,
+        "compatmode": true,
+        "keepalive": "15",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "f26da417.aa4e58",
+        "type": "tls-config",
+        "z": "",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "m2mqtt_srv.crt",
+        "keyname": "m2mqtt_srv.key",
+        "caname": "m2mqtt_ca.crt",
+        "servername": "",
+        "verifyservercert": false
+    },
+    {
+        "id": "705b87af.489ab8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Rename Device",
+        "tab": "f63618e8.0abe88",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "f63618e8.0abe88",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Zigbee2MQTT Admin Panel",
+        "icon": "dashboard",
+        "order": 2
+    },
+    {
+        "id": "279a7c8a.6a25b4",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "Local Mosquitto Mqtt Broker",
+        "broker": "192.168.0.49",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "zigbee2mqtt/bridge/log",
+        "birthQos": "0",
+        "birthPayload": "Connected gracefully",
+        "closeTopic": "zigbee2mqtt/bridge/log",
+        "closeQos": "0",
+        "closePayload": "Disconnected gracefully",
+        "willTopic": "zigbee2mqtt/bridge/log",
+        "willQos": "0",
+        "willPayload": "Disconnection Error "
+    },
+    {
+        "id": "36393a84.198f86",
+        "type": "zigbee2mqtt-server",
+        "z": "",
+        "name": "Local MQTT server",
+        "host": "192.168.0.49",
+        "mqtt_port": "1883",
+        "mqtt_username": "",
+        "mqtt_password": "",
+        "tls": "cbb1efd8.1945e",
+        "usetls": false,
+        "base_topic": "zigbee2mqtt"
+    },
+    {
+        "id": "e31012aa.f33e2",
+        "type": "ui_group",
+        "z": "",
+        "name": "Room Status",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": true
+    },
+    {
+        "id": "4d1aa7fb.bcdd58",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "38b7a54.698bc5a",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Rooms ",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "5f7ee725.56d298",
+        "type": "ui_group",
+        "z": "",
+        "name": "Room-1",
+        "tab": "38b7a54.698bc5a",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "cd359591.3d9978",
+        "type": "ui_group",
+        "z": "",
+        "name": "Room-2",
+        "tab": "38b7a54.698bc5a",
+        "order": 2,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "914e14af.aed7f8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Room-3",
+        "tab": "38b7a54.698bc5a",
+        "order": 3,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "d89be048.739ff",
+        "type": "mqtt in",
+        "z": "3283d153.cb5fde",
+        "name": "zigbee2mqtt/out",
+        "topic": "zigbee2mqtt/bridge/networkmap/graphviz",
+        "qos": "2",
+        "broker": "370c6c19.8c59f4",
+        "x": 120,
+        "y": 140,
+        "wires": [
+            [
+                "82e64a0d.800dd8"
+            ]
+        ]
+    },
+    {
+        "id": "996ed314.f03b8",
+        "type": "http in",
+        "z": "3283d153.cb5fde",
+        "name": "",
+        "url": "/adminpanelapi/networkmap/graphviz",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 200,
+        "y": 200,
+        "wires": [
+            [
+                "19f0a6a7.baf329"
+            ]
+        ]
+    },
+    {
+        "id": "d3f42124.2e712",
+        "type": "http response",
+        "z": "3283d153.cb5fde",
+        "name": "",
+        "x": 610,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "19f0a6a7.baf329",
+        "type": "function",
+        "z": "3283d153.cb5fde",
+        "name": "get from flow",
+        "func": "var networkmap = flow.get('networkmap');\n\nmsg.payload = networkmap;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 200,
+        "wires": [
+            [
+                "d3f42124.2e712"
+            ]
+        ]
+    },
+    {
+        "id": "9d97d4af.88d478",
+        "type": "inject",
+        "z": "3283d153.cb5fde",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "300",
+        "topic": "",
+        "payload": "graphviz",
+        "payloadType": "str",
+        "x": 120,
+        "y": 80,
+        "wires": [
+            [
+                "74c19ad7.eb5634"
+            ]
+        ]
+    },
+    {
+        "id": "82e64a0d.800dd8",
+        "type": "function",
+        "z": "3283d153.cb5fde",
+        "name": "store in flow",
+        "func": "flow.set('networkmap',msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 290,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "74c19ad7.eb5634",
+        "type": "mqtt out",
+        "z": "3283d153.cb5fde",
+        "name": "zigbee2mqtt/in",
+        "topic": "zigbee2mqtt/bridge/networkmap",
+        "qos": "",
+        "retain": "",
+        "broker": "370c6c19.8c59f4",
+        "x": 280,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "df63dc52.a98b2",
+        "type": "http in",
+        "z": "3283d153.cb5fde",
+        "name": "",
+        "url": "/adminpanelapi/networkmap/viz/:engine",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 210,
+        "y": 260,
+        "wires": [
+            [
+                "44b0e5dd.961f4c"
+            ]
+        ]
+    },
+    {
+        "id": "8dbc8c4c.af81c",
+        "type": "http response",
+        "z": "3283d153.cb5fde",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 810,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "276154ec.54fa1c",
+        "type": "function",
+        "z": "3283d153.cb5fde",
+        "name": "generate viz html",
+        "func": "var html = `<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <title>NetworkMap</title>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/viz.js/2.1.2/viz.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/viz.js/2.1.2/full.render.js\"></script>\n    <script src='https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.5.0/dist/svg-pan-zoom.min.js'></script>\n    <style>\n    svg {\n      width: 100% !important;\n      height: 100% !important;\n      min-width: 100% !important;\n      min-height: 80% !important;\n    }\n    </style>\n  </head>\n  <body>\n    <div id=\"output\"></div>\n    \n    <script>\n        var graphData = '${(flow.get('networkmap')).replace(/(\\r\\n|\\n|\\r)/gm,\"\")}';\n        var vizOptions = { format: 'svg', engine: '${msg.engine}'}\n        var graph = document.querySelector(\"#output\");\n        var svg = graph.querySelector(\"svg\");\n        if (svg) {\n          graph.removeChild(svg);\n        }        \n\n        var viz = new Viz();\n\n        viz.renderSVGElement(graphData, vizOptions)\n          .then(function(svg) {\n            svg.id = \"svg_output\";\n            graph.appendChild(svg);              \n            \n            panZoom = svgPanZoom(svg, {\n              zoomEnabled: true,\n              controlIconsEnabled: true,\n              contain: true,\n              center: true,\n              minZoom: 0.1\n            });\n\n            svg.addEventListener('paneresize', function(e) {\n              panZoom.resize();\n            }, false);\n            window.addEventListener('resize', function(e) {\n              panZoom.resize();\n            });\n          })\n          .catch(error => {\n            // Create a new Viz instance (@see Caveats page for more info)\n            viz = new Viz();\n  \n            // Possibly display the error\n            console.error(error);\n          });\n    </script>\n  </body>\n</html>\n`\n\nmsg.payload = html;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 650,
+        "y": 260,
+        "wires": [
+            [
+                "8dbc8c4c.af81c"
+            ]
+        ]
+    },
+    {
+        "id": "44b0e5dd.961f4c",
+        "type": "function",
+        "z": "3283d153.cb5fde",
+        "name": "set engine",
+        "func": "var availableEngines = ['circo', 'dot', 'fdp', 'neato', 'osage', 'twopi']\nif(availableEngines.includes(msg.req.params.engine)) { msg.engine = msg.req.params.engine }\nelse { msg.engine = 'dot' }\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 260,
+        "wires": [
+            [
+                "276154ec.54fa1c"
+            ]
+        ]
+    },
+    {
+        "id": "42ac6a43.b928a4",
+        "type": "mqtt in",
+        "z": "ec474757.e721f8",
+        "name": "zigbee2mqtt/logging",
+        "topic": "zigbee2mqtt/bridge/log",
+        "qos": "2",
+        "broker": "",
+        "x": 290,
+        "y": 140,
+        "wires": [
+            [
+                "b3c4e36b.fd1af"
+            ]
+        ]
+    },
+    {
+        "id": "b3c4e36b.fd1af",
+        "type": "json",
+        "z": "ec474757.e721f8",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 450,
+        "y": 140,
+        "wires": [
+            [
+                "47f606c2.2fefb8",
+                "a217c214.5dd57",
+                "80f5d8ba.6e06c8"
+            ]
+        ]
+    },
+    {
+        "id": "47f606c2.2fefb8",
+        "type": "function",
+        "z": "ec474757.e721f8",
+        "name": "Notification",
+        "func": "if(msg.payload.type == \"pairing\" && msg.payload.message == \"connecting with device\") {\n\nmsg.payload = (\"A device is attempting to pair...\");\n\nreturn msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 750,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3ef345db.d969aa",
+        "type": "comment",
+        "z": "ec474757.e721f8",
+        "name": "Notification",
+        "info": "",
+        "x": 110,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "4c0aae6a.d3994",
+        "type": "comment",
+        "z": "ec474757.e721f8",
+        "name": "Pairing",
+        "info": "",
+        "x": 590,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "a217c214.5dd57",
+        "type": "function",
+        "z": "ec474757.e721f8",
+        "name": "Notification",
+        "func": "if(msg.payload.type == \"device_connected\") {\n\nmsg.payload = (\"Device paired successfully: \" + msg.payload.message);\n\nreturn msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 750,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5f2a0636.5f29a8",
+        "type": "comment",
+        "z": "ec474757.e721f8",
+        "name": "Paired",
+        "info": "",
+        "x": 590,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "80f5d8ba.6e06c8",
+        "type": "function",
+        "z": "ec474757.e721f8",
+        "name": "Notification",
+        "func": "if(msg.payload.type == \"pairing\" && msg.payload.message == \"device incoming\") {\n\nmsg.payload = (\"A device is incoming or repairing...\");\n\nreturn msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 830,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "22e18443.56460c",
+        "type": "comment",
+        "z": "ec474757.e721f8",
+        "name": "Incoming or Repairing",
+        "info": "",
+        "x": 640,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "720dd548.08a18c",
+        "type": "mqtt in",
+        "z": "305d03de.0397fc",
+        "name": "zigbee2mqtt/out devices",
+        "topic": "zigbee2mqtt/bridge/log",
+        "qos": "2",
+        "broker": "",
+        "x": 350,
+        "y": 140,
+        "wires": [
+            [
+                "e3f0a3e8.7b4d7"
+            ]
+        ]
+    },
+    {
+        "id": "a91fad5.866c35",
+        "type": "mqtt out",
+        "z": "305d03de.0397fc",
+        "name": "zigbee2mqtt/in devices",
+        "topic": "zigbee2mqtt/bridge/config/devices",
+        "qos": "",
+        "retain": "",
+        "broker": "",
+        "x": 580,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "165b041d.26c90c",
+        "type": "inject",
+        "z": "305d03de.0397fc",
+        "name": "Request Device List",
+        "repeat": "4",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 360,
+        "y": 60,
+        "wires": [
+            [
+                "a91fad5.866c35"
+            ]
+        ]
+    },
+    {
+        "id": "88eed728.bf6028",
+        "type": "comment",
+        "z": "305d03de.0397fc",
+        "name": "Request Device List",
+        "info": "",
+        "x": 130,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "9f31e003.69c6b",
+        "type": "comment",
+        "z": "305d03de.0397fc",
+        "name": "Receive Device List",
+        "info": "",
+        "x": 130,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "e3f0a3e8.7b4d7",
+        "type": "json",
+        "z": "305d03de.0397fc",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 530,
+        "y": 140,
+        "wires": [
+            [
+                "cd2baaeb.d5ba98",
+                "a18af37e.2a75b"
+            ]
+        ]
+    },
+    {
+        "id": "5b0a2650.3badc8",
+        "type": "http in",
+        "z": "305d03de.0397fc",
+        "name": "",
+        "url": "/adminpanelapi/devicelist",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 530,
+        "y": 220,
+        "wires": [
+            [
+                "8f02264f.52c498"
+            ]
+        ]
+    },
+    {
+        "id": "cd2baaeb.d5ba98",
+        "type": "function",
+        "z": "305d03de.0397fc",
+        "name": "Store Data",
+        "func": "flow.set('devicelist',msg.payload);",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "65593be7.8c9f84",
+        "type": "http response",
+        "z": "305d03de.0397fc",
+        "name": "",
+        "x": 870,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "8f02264f.52c498",
+        "type": "function",
+        "z": "305d03de.0397fc",
+        "name": "Get Data",
+        "func": "var devicelist = flow.get('devicelist');\nmsg.payload = devicelist;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 740,
+        "y": 220,
+        "wires": [
+            [
+                "65593be7.8c9f84"
+            ]
+        ]
+    },
+    {
+        "id": "906edaf4.daf5c8",
+        "type": "comment",
+        "z": "305d03de.0397fc",
+        "name": "HTTP JSON API",
+        "info": "",
+        "x": 120,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "a18af37e.2a75b",
+        "type": "function",
+        "z": "305d03de.0397fc",
+        "name": "Store Globally",
+        "func": "global.set('zigbee2mqttdevicelist',msg.payload.message);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 890,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a08a2dae.39ce",
+        "type": "mqtt in",
+        "z": "c9f1e62c.0da758",
+        "name": "zigbee2mqtt/bridge state",
+        "topic": "zigbee2mqtt/bridge/state",
+        "qos": "2",
+        "broker": "",
+        "x": 270,
+        "y": 80,
+        "wires": [
+            [
+                "52fbb04b.e5e3b"
+            ]
+        ]
+    },
+    {
+        "id": "52fbb04b.e5e3b",
+        "type": "function",
+        "z": "c9f1e62c.0da758",
+        "name": "Format Data",
+        "func": "flow.set('bridgestate',msg.payload);\nvar bridgestate = flow.get('bridgestate');\nmsg.payload = bridgestate;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 80,
+        "wires": [
+            [
+                "472133db.65c42c"
+            ]
+        ]
+    },
+    {
+        "id": "de0e2d3e.222e3",
+        "type": "function",
+        "z": "c9f1e62c.0da758",
+        "name": "Format Data",
+        "func": "var bridgestate = flow.get('bridgestate');\nvar devicelist = global.get('zigbee2mqttdevicelist');\nmsg.payload = {}\nmsg.payload.bridgestate = bridgestate;\nmsg.payload.numberofdevices = devicelist.length;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "74793973.912948",
+        "type": "inject",
+        "z": "c9f1e62c.0da758",
+        "name": "",
+        "repeat": "3",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 350,
+        "y": 140,
+        "wires": [
+            [
+                "de0e2d3e.222e3"
+            ]
+        ]
+    },
+    {
+        "id": "472133db.65c42c",
+        "type": "debug",
+        "z": "c9f1e62c.0da758",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 610,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "f3601380.7ca11",
+        "type": "comment",
+        "z": "c9f1e62c.0da758",
+        "name": "Get state",
+        "info": "",
+        "x": 80,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "6aa55bbe.5d9e94",
+        "type": "comment",
+        "z": "c9f1e62c.0da758",
+        "name": "Update Web UI on Interval",
+        "info": "",
+        "x": 130,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "450a7fba.59ec7",
+        "type": "http in",
+        "z": "c9f1e62c.0da758",
+        "name": "",
+        "url": "/adminpanelapi/state",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 270,
+        "y": 220,
+        "wires": [
+            [
+                "f4b54b2d.9bf218"
+            ]
+        ]
+    },
+    {
+        "id": "27775612.89544a",
+        "type": "http response",
+        "z": "c9f1e62c.0da758",
+        "name": "",
+        "x": 590,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "f4b54b2d.9bf218",
+        "type": "function",
+        "z": "c9f1e62c.0da758",
+        "name": "Get Data",
+        "func": "var bridgestate = flow.get('bridgestate');\nmsg.payload = bridgestate;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 460,
+        "y": 220,
+        "wires": [
+            [
+                "27775612.89544a"
+            ]
+        ]
+    },
+    {
+        "id": "270013ea.5dcdfc",
+        "type": "comment",
+        "z": "c9f1e62c.0da758",
+        "name": "HTTP API",
+        "info": "",
+        "x": 80,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "1af1add5.f73ee2",
+        "type": "mqtt out",
+        "z": "584a9744.73d208",
+        "name": "zigbee2mqtt/in Logging Level",
+        "topic": "zigbee2mqtt/bridge/config/log_level",
+        "qos": "",
+        "retain": "",
+        "broker": "",
+        "x": 380,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "fd5ca917.d38d48",
+        "type": "mqtt out",
+        "z": "3e65c160.7f8c2e",
+        "name": "zigbee2mqtt/in Remove",
+        "topic": "zigbee2mqtt/bridge/config/remove",
+        "qos": "",
+        "retain": "",
+        "broker": "",
+        "x": 1190,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "86697e1d.484e5",
+        "type": "function",
+        "z": "3e65c160.7f8c2e",
+        "name": "Format Data",
+        "func": "flow.set('remove',msg.payload.remove);",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 650,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "46e4c67c.5b74c8",
+        "type": "change",
+        "z": "3e65c160.7f8c2e",
+        "name": "change msg old",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.remove",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 60,
+        "wires": [
+            [
+                "86697e1d.484e5"
+            ]
+        ]
+    },
+    {
+        "id": "2812fbd2.1634c4",
+        "type": "function",
+        "z": "3e65c160.7f8c2e",
+        "name": "Format Data",
+        "func": "var remove = flow.get('remove');\nif (typeof remove !== 'undefined' && remove !== null && remove !== \"\"){\nmsg.payload = remove;\n\nreturn msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 970,
+        "y": 60,
+        "wires": [
+            [
+                "fd5ca917.d38d48"
+            ]
+        ]
+    },
+    {
+        "id": "3326c088.66b7f",
+        "type": "comment",
+        "z": "3e65c160.7f8c2e",
+        "name": "Remove Device",
+        "info": "",
+        "x": 120,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "18aa0ae7.cf7dc5",
+        "type": "mqtt in",
+        "z": "3e65c160.7f8c2e",
+        "name": "zigbee2mqtt/logging",
+        "topic": "zigbee2mqtt/bridge/log",
+        "qos": "2",
+        "broker": "",
+        "x": 290,
+        "y": 120,
+        "wires": [
+            [
+                "28700a08.d13b36"
+            ]
+        ]
+    },
+    {
+        "id": "28700a08.d13b36",
+        "type": "json",
+        "z": "3e65c160.7f8c2e",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 450,
+        "y": 120,
+        "wires": [
+            [
+                "ed246de6.0807a"
+            ]
+        ]
+    },
+    {
+        "id": "ed246de6.0807a",
+        "type": "function",
+        "z": "3e65c160.7f8c2e",
+        "name": "Notification",
+        "func": "if(msg.payload.type == 'device_removed') {\nvar remove = flow.get('remove');\nif (typeof remove !== 'undefined' && remove !== null && remove !== \"\"){\nmsg.payload = (\"Deviced removed: \" + msg.payload.message);\n\n// Reset field\n//remove = \"\";\n//flow.set('remove',msg.payload.message);\n\nreturn msg;\n}\n}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 590,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a85b66e5.fad578",
+        "type": "comment",
+        "z": "3e65c160.7f8c2e",
+        "name": "Notification",
+        "info": "",
+        "x": 110,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "f2a1a67d.9f7038",
+        "type": "function",
+        "z": "3e65c160.7f8c2e",
+        "name": "Notification",
+        "func": "var remove = flow.get('remove');\nif (typeof remove === 'undefined' || remove === null || remove === \"\"){\nmsg.payload = \"Enter a device to remove\";\n\nreturn msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1010,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3ce0c8d4.7d0198",
+        "type": "mqtt out",
+        "z": "2c222a94.ee7cf6",
+        "name": "zigbee2mqtt/in Join",
+        "topic": "zigbee2mqtt/bridge/config/permit_join",
+        "qos": "",
+        "retain": "",
+        "broker": "370c6c19.8c59f4",
+        "x": 270,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "ccca7f96.bacb8",
+        "type": "function",
+        "z": "2c222a94.ee7cf6",
+        "name": "Notification",
+        "func": "if (typeof msg.payload !== 'undefined' && msg.payload !== null && msg.payload !== \"\"){\nif (msg.payload == \"false\"){\n    msg.payload = \"Permit join: Deny\";\n}\nif (msg.payload == \"true\"){\n    msg.payload = \"Permit join: Allow\";\n}\nreturn msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 250,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a55f044f.198e48",
+        "type": "mqtt out",
+        "z": "174fe80a.f8c5e8",
+        "name": "zigbee2mqtt/in Rename",
+        "topic": "zigbee2mqtt/bridge/config/rename",
+        "qos": "",
+        "retain": "",
+        "broker": "",
+        "x": 1010,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "23e3717b.eed74e",
+        "type": "function",
+        "z": "174fe80a.f8c5e8",
+        "name": "Format Data",
+        "func": "flow.set('oldname',msg.payload.old);",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2f07eb54.48b274",
+        "type": "change",
+        "z": "174fe80a.f8c5e8",
+        "name": "change msg old",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.old",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 140,
+        "wires": [
+            [
+                "23e3717b.eed74e"
+            ]
+        ]
+    },
+    {
+        "id": "85e0f512.82f188",
+        "type": "change",
+        "z": "174fe80a.f8c5e8",
+        "name": "change msg new",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.new",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 200,
+        "wires": [
+            [
+                "3b0a8b03.590194"
+            ]
+        ]
+    },
+    {
+        "id": "3fa0252b.4f3c4a",
+        "type": "function",
+        "z": "174fe80a.f8c5e8",
+        "name": "Format Data",
+        "func": "var oldname = flow.get('oldname');\nvar newname = flow.get('newname');\n\nif (typeof oldname !== 'undefined' && oldname !== null && oldname !== \"\" && typeof newname !== 'undefined' && newname !== null && newname !== \"\"){\nmsg.payload = {\"old\": oldname, \"new\": newname}\n\n// Reset fields\noldname = \"\";\nnewname = \"\";\nflow.set('oldname',msg.payload.old);\nflow.set('newname',msg.payload.new);\n\nreturn msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 790,
+        "y": 140,
+        "wires": [
+            [
+                "a55f044f.198e48"
+            ]
+        ]
+    },
+    {
+        "id": "3b0a8b03.590194",
+        "type": "function",
+        "z": "174fe80a.f8c5e8",
+        "name": "Format Data",
+        "func": "flow.set('newname',msg.payload.new);",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 490,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8b76bf39.c1241",
+        "type": "function",
+        "z": "174fe80a.f8c5e8",
+        "name": "Notification",
+        "func": "var oldname = flow.get('oldname');\nvar newname = flow.get('newname');\n\nif (typeof oldname !== 'undefined' && oldname !== null && oldname !== \"\" && typeof newname !== 'undefined' && newname !== null && newname !== \"\"){\nmsg.payload = (\"Rename Device: \" + oldname + \" to \" + newname);\nreturn msg;\n} else {\nmsg.payload = \"Enter device to rename\";\nreturn msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 670,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2f220d53.708022",
+        "type": "mqtt in",
+        "z": "45739994.4c4218",
+        "name": "zigbee2mqtt/out",
+        "topic": "zigbee2mqtt/bridge/networkmap/graphviz",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 120,
+        "y": 140,
+        "wires": [
+            [
+                "8777ce84.46167"
+            ]
+        ]
+    },
+    {
+        "id": "58429d03.5585d4",
+        "type": "http in",
+        "z": "45739994.4c4218",
+        "name": "",
+        "url": "/adminpanelapi/networkmap/graphviz",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 200,
+        "y": 200,
+        "wires": [
+            [
+                "ee68b970.0a87d8"
+            ]
+        ]
+    },
+    {
+        "id": "1d670ee.6bdfbf1",
+        "type": "http response",
+        "z": "45739994.4c4218",
+        "name": "",
+        "x": 610,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "ee68b970.0a87d8",
+        "type": "function",
+        "z": "45739994.4c4218",
+        "name": "get from flow",
+        "func": "var networkmap = flow.get('networkmap');\n\nmsg.payload = networkmap;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 200,
+        "wires": [
+            [
+                "1d670ee.6bdfbf1"
+            ]
+        ]
+    },
+    {
+        "id": "28f9d38f.65e1fc",
+        "type": "inject",
+        "z": "45739994.4c4218",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "300",
+        "topic": "",
+        "payload": "graphviz",
+        "payloadType": "str",
+        "x": 120,
+        "y": 80,
+        "wires": [
+            [
+                "217ae31e.c7d8fc"
+            ]
+        ]
+    },
+    {
+        "id": "8777ce84.46167",
+        "type": "function",
+        "z": "45739994.4c4218",
+        "name": "store in flow",
+        "func": "flow.set('networkmap',msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 290,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "217ae31e.c7d8fc",
+        "type": "mqtt out",
+        "z": "45739994.4c4218",
+        "name": "zigbee2mqtt/in",
+        "topic": "zigbee2mqtt/bridge/networkmap",
+        "qos": "",
+        "retain": "",
+        "broker": "279a7c8a.6a25b4",
+        "x": 280,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "ac3d2814.b46fd8",
+        "type": "http in",
+        "z": "45739994.4c4218",
+        "name": "",
+        "url": "/adminpanelapi/networkmap/viz/:engine",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 210,
+        "y": 260,
+        "wires": [
+            [
+                "2a9a8bbc.550394"
+            ]
+        ]
+    },
+    {
+        "id": "5dd4b7a1.c89f88",
+        "type": "http response",
+        "z": "45739994.4c4218",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 810,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "aaf188b6.85ee38",
+        "type": "function",
+        "z": "45739994.4c4218",
+        "name": "generate viz html",
+        "func": "var html = `<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <title>NetworkMap</title>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/viz.js/2.1.2/viz.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/viz.js/2.1.2/full.render.js\"></script>\n    <script src='https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.5.0/dist/svg-pan-zoom.min.js'></script>\n    <style>\n    svg {\n      width: 100% !important;\n      height: 100% !important;\n      min-width: 100% !important;\n      min-height: 80% !important;\n    }\n    </style>\n  </head>\n  <body>\n    <div id=\"output\"></div>\n    \n    <script>\n        var graphData = '${(flow.get('networkmap')).replace(/(\\r\\n|\\n|\\r)/gm,\"\")}';\n        var vizOptions = { format: 'svg', engine: '${msg.engine}'}\n        var graph = document.querySelector(\"#output\");\n        var svg = graph.querySelector(\"svg\");\n        if (svg) {\n          graph.removeChild(svg);\n        }        \n\n        var viz = new Viz();\n\n        viz.renderSVGElement(graphData, vizOptions)\n          .then(function(svg) {\n            svg.id = \"svg_output\";\n            graph.appendChild(svg);              \n            \n            panZoom = svgPanZoom(svg, {\n              zoomEnabled: true,\n              controlIconsEnabled: true,\n              contain: true,\n              center: true,\n              minZoom: 0.1\n            });\n\n            svg.addEventListener('paneresize', function(e) {\n              panZoom.resize();\n            }, false);\n            window.addEventListener('resize', function(e) {\n              panZoom.resize();\n            });\n          })\n          .catch(error => {\n            // Create a new Viz instance (@see Caveats page for more info)\n            viz = new Viz();\n  \n            // Possibly display the error\n            console.error(error);\n          });\n    </script>\n  </body>\n</html>\n`\n\nmsg.payload = html;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 650,
+        "y": 260,
+        "wires": [
+            [
+                "5dd4b7a1.c89f88"
+            ]
+        ]
+    },
+    {
+        "id": "2a9a8bbc.550394",
+        "type": "function",
+        "z": "45739994.4c4218",
+        "name": "set engine",
+        "func": "var availableEngines = ['circo', 'dot', 'fdp', 'neato', 'osage', 'twopi']\nif(availableEngines.includes(msg.req.params.engine)) { msg.engine = msg.req.params.engine }\nelse { msg.engine = 'dot' }\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 260,
+        "wires": [
+            [
+                "aaf188b6.85ee38"
+            ]
+        ]
+    },
+    {
+        "id": "91b43e24.2d45e",
+        "type": "mqtt in",
+        "z": "b3bdfce8.41f78",
+        "name": "zigbee2mqtt/logging",
+        "topic": "zigbee2mqtt/bridge/log",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 290,
+        "y": 140,
+        "wires": [
+            [
+                "3536171c.fcc848"
+            ]
+        ]
+    },
+    {
+        "id": "3536171c.fcc848",
+        "type": "json",
+        "z": "b3bdfce8.41f78",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 450,
+        "y": 140,
+        "wires": [
+            [
+                "2dcbc70.76d053a",
+                "cc8ad460.ade4a8",
+                "60e37faf.e5f6b"
+            ]
+        ]
+    },
+    {
+        "id": "56674a.a7e208b8",
+        "type": "ui_toast",
+        "z": "b3bdfce8.41f78",
+        "position": "top right",
+        "displayTime": "30",
+        "highlight": "",
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "topic": "System Notification",
+        "name": "",
+        "x": 950,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "2dcbc70.76d053a",
+        "type": "function",
+        "z": "b3bdfce8.41f78",
+        "name": "Notification",
+        "func": "if(msg.payload.type == \"pairing\" && msg.payload.message == \"connecting with device\") {\n\nmsg.payload = (\"A device is attempting to pair...\");\n\nreturn msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 750,
+        "y": 80,
+        "wires": [
+            [
+                "56674a.a7e208b8"
+            ]
+        ]
+    },
+    {
+        "id": "ccc21f9c.c4c9d",
+        "type": "comment",
+        "z": "b3bdfce8.41f78",
+        "name": "Notification",
+        "info": "",
+        "x": 110,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "1dff27a8.a5c7a8",
+        "type": "comment",
+        "z": "b3bdfce8.41f78",
+        "name": "Pairing",
+        "info": "",
+        "x": 590,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "e148ba61.0a8cc8",
+        "type": "ui_toast",
+        "z": "b3bdfce8.41f78",
+        "position": "top right",
+        "displayTime": "10",
+        "highlight": "",
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "topic": "System Notification",
+        "name": "",
+        "x": 950,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "cc8ad460.ade4a8",
+        "type": "function",
+        "z": "b3bdfce8.41f78",
+        "name": "Notification",
+        "func": "if(msg.payload.type == \"device_connected\") {\n\nmsg.payload = (\"Device paired successfully: \" + msg.payload.message);\n\nreturn msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 750,
+        "y": 200,
+        "wires": [
+            [
+                "e148ba61.0a8cc8"
+            ]
+        ]
+    },
+    {
+        "id": "d0214bfb.f64508",
+        "type": "comment",
+        "z": "b3bdfce8.41f78",
+        "name": "Paired",
+        "info": "",
+        "x": 590,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "676102f8.2dc50c",
+        "type": "ui_toast",
+        "z": "b3bdfce8.41f78",
+        "position": "top right",
+        "displayTime": "30",
+        "highlight": "",
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "topic": "System Notification",
+        "name": "",
+        "x": 1030,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "60e37faf.e5f6b",
+        "type": "function",
+        "z": "b3bdfce8.41f78",
+        "name": "Notification",
+        "func": "if(msg.payload.type == \"pairing\" && msg.payload.message == \"device incoming\") {\n\nmsg.payload = (\"A device is incoming or repairing...\");\n\nreturn msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 830,
+        "y": 140,
+        "wires": [
+            [
+                "676102f8.2dc50c"
+            ]
+        ]
+    },
+    {
+        "id": "8c86cf16.7cdc5",
+        "type": "comment",
+        "z": "b3bdfce8.41f78",
+        "name": "Incoming or Repairing",
+        "info": "",
+        "x": 640,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "1e64e9e4.e3f9a6",
+        "type": "mqtt in",
+        "z": "d955ae5f.5e0b1",
+        "name": "zigbee2mqtt/out devices",
+        "topic": "zigbee2mqtt/bridge/log",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 350,
+        "y": 140,
+        "wires": [
+            [
+                "d8a5044b.6978c8"
+            ]
+        ]
+    },
+    {
+        "id": "37e10d4a.cee482",
+        "type": "ui_template",
+        "z": "d955ae5f.5e0b1",
+        "group": "46477c08.642344",
+        "name": "",
+        "order": 0,
+        "width": "12",
+        "height": "12",
+        "format": "<table>\n<tr>\n    <td><B><U>Name:</U></B></td>\n    <td><B><U>ieeeAddr:</U></B></td>\n    <td><B><U>Model:</U></B></td>\n    <td><B><U>Type:</U></B></td>\n</tr>\n  <tr ng-repeat=\"obj in msg.payload.message\">\n    <td>{{ obj.friendly_name }}</td>\n    <td>{{ obj.ieeeAddr }}</td>\n    <td>{{ obj.model }}</td>\n    <td>{{ obj.type }}</td>\n  </tr>\n\n</table>\n\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 660,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2c2cc40c.263c0c",
+        "type": "mqtt out",
+        "z": "d955ae5f.5e0b1",
+        "name": "zigbee2mqtt/in devices",
+        "topic": "zigbee2mqtt/bridge/config/devices",
+        "qos": "",
+        "retain": "",
+        "broker": "279a7c8a.6a25b4",
+        "x": 580,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "c8e5a1a6.87e47",
+        "type": "inject",
+        "z": "d955ae5f.5e0b1",
+        "name": "Request Device List",
+        "repeat": "4",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 360,
+        "y": 60,
+        "wires": [
+            [
+                "2c2cc40c.263c0c"
+            ]
+        ]
+    },
+    {
+        "id": "c52f0c44.07086",
+        "type": "comment",
+        "z": "d955ae5f.5e0b1",
+        "name": "Request Device List",
+        "info": "",
+        "x": 130,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "382b786c.8b7b38",
+        "type": "comment",
+        "z": "d955ae5f.5e0b1",
+        "name": "Receive Device List",
+        "info": "",
+        "x": 130,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "d8a5044b.6978c8",
+        "type": "json",
+        "z": "d955ae5f.5e0b1",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 530,
+        "y": 140,
+        "wires": [
+            [
+                "37e10d4a.cee482",
+                "dd3b78cc.73cca8",
+                "9edc9f7d.1d0b5"
+            ]
+        ]
+    },
+    {
+        "id": "63b6a507.0d9bfc",
+        "type": "http in",
+        "z": "d955ae5f.5e0b1",
+        "name": "",
+        "url": "/adminpanelapi/devicelist",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 530,
+        "y": 220,
+        "wires": [
+            [
+                "88dccbd9.210218"
+            ]
+        ]
+    },
+    {
+        "id": "dd3b78cc.73cca8",
+        "type": "function",
+        "z": "d955ae5f.5e0b1",
+        "name": "Store Data",
+        "func": "flow.set('devicelist',msg.payload);",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b9b36e0e.c425f",
+        "type": "http response",
+        "z": "d955ae5f.5e0b1",
+        "name": "",
+        "x": 870,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "88dccbd9.210218",
+        "type": "function",
+        "z": "d955ae5f.5e0b1",
+        "name": "Get Data",
+        "func": "var devicelist = flow.get('devicelist');\nmsg.payload = devicelist;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 740,
+        "y": 220,
+        "wires": [
+            [
+                "b9b36e0e.c425f"
+            ]
+        ]
+    },
+    {
+        "id": "a85db732.bbb728",
+        "type": "comment",
+        "z": "d955ae5f.5e0b1",
+        "name": "HTTP JSON API",
+        "info": "",
+        "x": 120,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "9edc9f7d.1d0b5",
+        "type": "function",
+        "z": "d955ae5f.5e0b1",
+        "name": "Store Globally",
+        "func": "global.set('zigbee2mqttdevicelist',msg.payload.message);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 890,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ad5d5338.0b62e",
+        "type": "mqtt in",
+        "z": "74a0863d.1d22f8",
+        "name": "zigbee2mqtt/bridge state",
+        "topic": "zigbee2mqtt/bridge/state",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 270,
+        "y": 80,
+        "wires": [
+            [
+                "363e040c.49654c"
+            ]
+        ]
+    },
+    {
+        "id": "363e040c.49654c",
+        "type": "function",
+        "z": "74a0863d.1d22f8",
+        "name": "Format Data",
+        "func": "flow.set('bridgestate',msg.payload);\nvar bridgestate = flow.get('bridgestate');\nmsg.payload = bridgestate;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 80,
+        "wires": [
+            [
+                "dbafb0d7.6a176"
+            ]
+        ]
+    },
+    {
+        "id": "59c60b85.f05bf4",
+        "type": "ui_template",
+        "z": "74a0863d.1d22f8",
+        "group": "be7a4414.8557a8",
+        "name": "",
+        "order": 0,
+        "width": "6",
+        "height": "2",
+        "format": "<style>\n    {{msg.style}}\n</style>\n\n<table>\n  <tr>\n    <td>Bridge</td>\n    <td>{{msg.payload.bridgestate}}</td>\n  </tr>\n  <tr>\n    <td>Devices</td>\n    <td>{{msg.payload.numberofdevices}}</td>\n  </tr>\n</table>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 660,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "39a1e0ad.7a0fb",
+        "type": "function",
+        "z": "74a0863d.1d22f8",
+        "name": "Format Data",
+        "func": "var bridgestate = flow.get('bridgestate');\nvar devicelist = global.get('zigbee2mqttdevicelist');\nmsg.payload = {}\nmsg.payload.bridgestate = bridgestate;\nmsg.payload.numberofdevices = devicelist.length;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 140,
+        "wires": [
+            [
+                "59c60b85.f05bf4"
+            ]
+        ]
+    },
+    {
+        "id": "89acebd4.0cb498",
+        "type": "inject",
+        "z": "74a0863d.1d22f8",
+        "name": "",
+        "repeat": "3",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 350,
+        "y": 140,
+        "wires": [
+            [
+                "39a1e0ad.7a0fb"
+            ]
+        ]
+    },
+    {
+        "id": "dbafb0d7.6a176",
+        "type": "debug",
+        "z": "74a0863d.1d22f8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 610,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "93399b82.e299c8",
+        "type": "comment",
+        "z": "74a0863d.1d22f8",
+        "name": "Get state",
+        "info": "",
+        "x": 80,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "2c5b78ca.6e9468",
+        "type": "comment",
+        "z": "74a0863d.1d22f8",
+        "name": "Update Web UI on Interval",
+        "info": "",
+        "x": 130,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "5e9071c4.8709f",
+        "type": "http in",
+        "z": "74a0863d.1d22f8",
+        "name": "",
+        "url": "/adminpanelapi/state",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 270,
+        "y": 220,
+        "wires": [
+            [
+                "dc9ce570.685bf8"
+            ]
+        ]
+    },
+    {
+        "id": "3a2eda92.91a6f6",
+        "type": "http response",
+        "z": "74a0863d.1d22f8",
+        "name": "",
+        "x": 590,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "dc9ce570.685bf8",
+        "type": "function",
+        "z": "74a0863d.1d22f8",
+        "name": "Get Data",
+        "func": "var bridgestate = flow.get('bridgestate');\nmsg.payload = bridgestate;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 460,
+        "y": 220,
+        "wires": [
+            [
+                "3a2eda92.91a6f6"
+            ]
+        ]
+    },
+    {
+        "id": "4aa9e558.eca9bc",
+        "type": "comment",
+        "z": "74a0863d.1d22f8",
+        "name": "HTTP API",
+        "info": "",
+        "x": 80,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "8e0a2a30.f0b7f8",
+        "type": "ui_dropdown",
+        "z": "d95fdee9.7be0f",
+        "name": "",
+        "label": "",
+        "place": "Select option",
+        "group": "3c349988.d786b6",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "options": [
+            {
+                "label": "Info",
+                "value": "info",
+                "type": "str"
+            },
+            {
+                "label": "Debug",
+                "value": "debug",
+                "type": "str"
+            },
+            {
+                "label": "Warn",
+                "value": "warn",
+                "type": "str"
+            },
+            {
+                "label": "Error",
+                "value": "error",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "x": 120,
+        "y": 60,
+        "wires": [
+            [
+                "cac5a61d.015058"
+            ]
+        ]
+    },
+    {
+        "id": "cac5a61d.015058",
+        "type": "mqtt out",
+        "z": "d95fdee9.7be0f",
+        "name": "zigbee2mqtt/in Logging Level",
+        "topic": "zigbee2mqtt/bridge/config/log_level",
+        "qos": "",
+        "retain": "",
+        "broker": "279a7c8a.6a25b4",
+        "x": 380,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "2810aeda.95f092",
+        "type": "ui_text_input",
+        "z": "1a47b370.57332d",
+        "name": "",
+        "label": "Device Name",
+        "group": "6bd497d3.c84228",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "5",
+        "topic": "",
+        "x": 300,
+        "y": 60,
+        "wires": [
+            [
+                "afe586a8.a67628"
+            ]
+        ]
+    },
+    {
+        "id": "b7ab8eab.46428",
+        "type": "mqtt out",
+        "z": "1a47b370.57332d",
+        "name": "zigbee2mqtt/in Remove",
+        "topic": "zigbee2mqtt/bridge/config/remove",
+        "qos": "",
+        "retain": "",
+        "broker": "279a7c8a.6a25b4",
+        "x": 1190,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "ec893f.aee0e6c",
+        "type": "function",
+        "z": "1a47b370.57332d",
+        "name": "Format Data",
+        "func": "flow.set('remove',msg.payload.remove);",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 650,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "afe586a8.a67628",
+        "type": "change",
+        "z": "1a47b370.57332d",
+        "name": "change msg old",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.remove",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 60,
+        "wires": [
+            [
+                "ec893f.aee0e6c"
+            ]
+        ]
+    },
+    {
+        "id": "c010c5d0.025aa8",
+        "type": "function",
+        "z": "1a47b370.57332d",
+        "name": "Format Data",
+        "func": "var remove = flow.get('remove');\nif (typeof remove !== 'undefined' && remove !== null && remove !== \"\"){\nmsg.payload = remove;\n\nreturn msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 970,
+        "y": 60,
+        "wires": [
+            [
+                "b7ab8eab.46428"
+            ]
+        ]
+    },
+    {
+        "id": "f221df3b.b7354",
+        "type": "ui_button",
+        "z": "1a47b370.57332d",
+        "name": "",
+        "group": "6bd497d3.c84228",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Remove",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "",
+        "x": 820,
+        "y": 60,
+        "wires": [
+            [
+                "c010c5d0.025aa8",
+                "59994745.cd6588"
+            ]
+        ]
+    },
+    {
+        "id": "325a9201.a4c90e",
+        "type": "comment",
+        "z": "1a47b370.57332d",
+        "name": "Remove Device",
+        "info": "",
+        "x": 120,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "9988794.bdbca88",
+        "type": "mqtt in",
+        "z": "1a47b370.57332d",
+        "name": "zigbee2mqtt/logging",
+        "topic": "zigbee2mqtt/bridge/log",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 290,
+        "y": 120,
+        "wires": [
+            [
+                "d00cffd7.cde24"
+            ]
+        ]
+    },
+    {
+        "id": "d00cffd7.cde24",
+        "type": "json",
+        "z": "1a47b370.57332d",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 450,
+        "y": 120,
+        "wires": [
+            [
+                "f8043b09.410068"
+            ]
+        ]
+    },
+    {
+        "id": "ac9478ea.544428",
+        "type": "ui_toast",
+        "z": "1a47b370.57332d",
+        "position": "top right",
+        "displayTime": "5",
+        "highlight": "",
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "topic": "System Notification",
+        "name": "",
+        "x": 790,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "f8043b09.410068",
+        "type": "function",
+        "z": "1a47b370.57332d",
+        "name": "Notification",
+        "func": "if(msg.payload.type == 'device_removed') {\nvar remove = flow.get('remove');\nif (typeof remove !== 'undefined' && remove !== null && remove !== \"\"){\nmsg.payload = (\"Deviced removed: \" + msg.payload.message);\n\n// Reset field\n//remove = \"\";\n//flow.set('remove',msg.payload.message);\n\nreturn msg;\n}\n}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 590,
+        "y": 120,
+        "wires": [
+            [
+                "ac9478ea.544428"
+            ]
+        ]
+    },
+    {
+        "id": "8ec1a5b5.14d698",
+        "type": "comment",
+        "z": "1a47b370.57332d",
+        "name": "Notification",
+        "info": "",
+        "x": 110,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "75cbe006.a6c01",
+        "type": "ui_toast",
+        "z": "1a47b370.57332d",
+        "position": "top right",
+        "displayTime": "5",
+        "highlight": "",
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "topic": "System Notification",
+        "name": "",
+        "x": 1210,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "59994745.cd6588",
+        "type": "function",
+        "z": "1a47b370.57332d",
+        "name": "Notification",
+        "func": "var remove = flow.get('remove');\nif (typeof remove === 'undefined' || remove === null || remove === \"\"){\nmsg.payload = \"Enter a device to remove\";\n\nreturn msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1010,
+        "y": 120,
+        "wires": [
+            [
+                "75cbe006.a6c01"
+            ]
+        ]
+    },
+    {
+        "id": "2c183c01.6902b4",
+        "type": "ui_dropdown",
+        "z": "b78ee140.f05c5",
+        "name": "",
+        "label": "",
+        "place": "Select option",
+        "group": "acc98df6.a686f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "options": [
+            {
+                "label": "Allow",
+                "value": "true",
+                "type": "str"
+            },
+            {
+                "label": "Deny",
+                "value": "false",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "x": 90,
+        "y": 40,
+        "wires": [
+            [
+                "b9945798.7097c8",
+                "95b29da8.fc59b"
+            ]
+        ]
+    },
+    {
+        "id": "b9945798.7097c8",
+        "type": "mqtt out",
+        "z": "b78ee140.f05c5",
+        "name": "zigbee2mqtt/in Join",
+        "topic": "zigbee2mqtt/bridge/config/permit_join",
+        "qos": "",
+        "retain": "",
+        "broker": "279a7c8a.6a25b4",
+        "x": 270,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "f86fecdb.cf2b6",
+        "type": "ui_toast",
+        "z": "b78ee140.f05c5",
+        "position": "top right",
+        "displayTime": "5",
+        "highlight": "",
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "topic": "System Notification",
+        "name": "",
+        "x": 450,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "95b29da8.fc59b",
+        "type": "function",
+        "z": "b78ee140.f05c5",
+        "name": "Notification",
+        "func": "if (typeof msg.payload !== 'undefined' && msg.payload !== null && msg.payload !== \"\"){\nif (msg.payload == \"false\"){\n    msg.payload = \"Permit join: Deny\";\n}\nif (msg.payload == \"true\"){\n    msg.payload = \"Permit join: Allow\";\n}\nreturn msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 250,
+        "y": 100,
+        "wires": [
+            [
+                "f86fecdb.cf2b6"
+            ]
+        ]
+    },
+    {
+        "id": "b996f1a8.ddd53",
+        "type": "ui_text_input",
+        "z": "f21c8ad7.95f578",
+        "name": "",
+        "label": "Old Name",
+        "group": "705b87af.489ab8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "5",
+        "topic": "",
+        "x": 120,
+        "y": 140,
+        "wires": [
+            [
+                "dabde3cb.4009"
+            ]
+        ]
+    },
+    {
+        "id": "bf699b26.dc5898",
+        "type": "ui_text_input",
+        "z": "f21c8ad7.95f578",
+        "name": "",
+        "label": "New Name",
+        "group": "705b87af.489ab8",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "5",
+        "topic": "",
+        "x": 130,
+        "y": 200,
+        "wires": [
+            [
+                "ae392eb2.b76e6"
+            ]
+        ]
+    },
+    {
+        "id": "1286fa29.e0a0e6",
+        "type": "mqtt out",
+        "z": "f21c8ad7.95f578",
+        "name": "zigbee2mqtt/in Rename",
+        "topic": "zigbee2mqtt/bridge/config/rename",
+        "qos": "",
+        "retain": "",
+        "broker": "279a7c8a.6a25b4",
+        "x": 1010,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "2db66501.84ef8a",
+        "type": "function",
+        "z": "f21c8ad7.95f578",
+        "name": "Format Data",
+        "func": "flow.set('oldname',msg.payload.old);",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dabde3cb.4009",
+        "type": "change",
+        "z": "f21c8ad7.95f578",
+        "name": "change msg old",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.old",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 140,
+        "wires": [
+            [
+                "2db66501.84ef8a"
+            ]
+        ]
+    },
+    {
+        "id": "ae392eb2.b76e6",
+        "type": "change",
+        "z": "f21c8ad7.95f578",
+        "name": "change msg new",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.new",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 200,
+        "wires": [
+            [
+                "699ded39.5b2084"
+            ]
+        ]
+    },
+    {
+        "id": "5bc6e65f.285ba8",
+        "type": "function",
+        "z": "f21c8ad7.95f578",
+        "name": "Format Data",
+        "func": "var oldname = flow.get('oldname');\nvar newname = flow.get('newname');\n\nif (typeof oldname !== 'undefined' && oldname !== null && oldname !== \"\" && typeof newname !== 'undefined' && newname !== null && newname !== \"\"){\nmsg.payload = {\"old\": oldname, \"new\": newname}\n\n// Reset fields\noldname = \"\";\nnewname = \"\";\nflow.set('oldname',msg.payload.old);\nflow.set('newname',msg.payload.new);\n\nreturn msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 790,
+        "y": 140,
+        "wires": [
+            [
+                "1286fa29.e0a0e6"
+            ]
+        ]
+    },
+    {
+        "id": "699ded39.5b2084",
+        "type": "function",
+        "z": "f21c8ad7.95f578",
+        "name": "Format Data",
+        "func": "flow.set('newname',msg.payload.new);",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 490,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c55875ee.4176f8",
+        "type": "ui_button",
+        "z": "f21c8ad7.95f578",
+        "name": "",
+        "group": "705b87af.489ab8",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Rename",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "",
+        "x": 640,
+        "y": 140,
+        "wires": [
+            [
+                "5bc6e65f.285ba8",
+                "defab2f.2b24e5"
+            ]
+        ]
+    },
+    {
+        "id": "5fab19e7.7e03a8",
+        "type": "ui_toast",
+        "z": "f21c8ad7.95f578",
+        "position": "top right",
+        "displayTime": "5",
+        "highlight": "",
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "topic": "System Notification",
+        "name": "",
+        "x": 850,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "defab2f.2b24e5",
+        "type": "function",
+        "z": "f21c8ad7.95f578",
+        "name": "Notification",
+        "func": "var oldname = flow.get('oldname');\nvar newname = flow.get('newname');\n\nif (typeof oldname !== 'undefined' && oldname !== null && oldname !== \"\" && typeof newname !== 'undefined' && newname !== null && newname !== \"\"){\nmsg.payload = (\"Rename Device: \" + oldname + \" to \" + newname);\nreturn msg;\n} else {\nmsg.payload = \"Enter device to rename\";\nreturn msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 670,
+        "y": 200,
+        "wires": [
+            [
+                "5fab19e7.7e03a8"
+            ]
+        ]
+    },
+    {
+        "id": "bb8189d3.cea2e8",
+        "type": "subflow:f21c8ad7.95f578",
+        "z": "ea5055dc.e5fc38",
+        "name": "",
+        "env": [],
+        "x": 140,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "6df569b7.c82b38",
+        "type": "subflow:b78ee140.f05c5",
+        "z": "ea5055dc.e5fc38",
+        "name": "",
+        "env": [],
+        "x": 120,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "6bdab57b.f0a1bc",
+        "type": "subflow:1a47b370.57332d",
+        "z": "ea5055dc.e5fc38",
+        "name": "",
+        "env": [],
+        "x": 140,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "a981175f.b41018",
+        "type": "comment",
+        "z": "ea5055dc.e5fc38",
+        "name": "Function",
+        "info": "",
+        "x": 120,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "6121f89.8da7308",
+        "type": "subflow:d95fdee9.7be0f",
+        "z": "ea5055dc.e5fc38",
+        "name": "",
+        "env": [],
+        "x": 130,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "3ed24f23.434e2",
+        "type": "subflow:74a0863d.1d22f8",
+        "z": "ea5055dc.e5fc38",
+        "name": "",
+        "env": [],
+        "x": 110,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "537eb8d8.2a6968",
+        "type": "subflow:d955ae5f.5e0b1",
+        "z": "ea5055dc.e5fc38",
+        "name": "",
+        "env": [],
+        "x": 110,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "84a83fd2.85558",
+        "type": "comment",
+        "z": "ea5055dc.e5fc38",
+        "name": "Other",
+        "info": "",
+        "x": 370,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "d3b61208.ee477",
+        "type": "subflow:b3bdfce8.41f78",
+        "z": "ea5055dc.e5fc38",
+        "name": "",
+        "env": [],
+        "x": 410,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "72879c4b.c0acb4",
+        "type": "subflow:45739994.4c4218",
+        "z": "ea5055dc.e5fc38",
+        "name": "",
+        "env": [],
+        "x": 390,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "8bccf0e8.ce7ea",
+        "type": "mqtt in",
+        "z": "6dba2425.ee666c",
+        "name": "Room-1/Device-1(Light)",
+        "topic": "zigbee2mqtt/device1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 220,
+        "y": 80,
+        "wires": [
+            [
+                "13fc939c.f4e9ac"
+            ]
+        ]
+    },
+    {
+        "id": "13fc939c.f4e9ac",
+        "type": "debug",
+        "z": "6dba2425.ee666c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "15847b02.19d685",
+        "type": "mqtt in",
+        "z": "6dba2425.ee666c",
+        "name": "Room-1/Device-2(Light)",
+        "topic": "zigbee2mqtt/device2",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 220,
+        "y": 160,
+        "wires": [
+            [
+                "83dec9d2.f14f48"
+            ]
+        ]
+    },
+    {
+        "id": "83dec9d2.f14f48",
+        "type": "debug",
+        "z": "6dba2425.ee666c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "b65f8bc4.e3f678",
+        "type": "mqtt in",
+        "z": "6dba2425.ee666c",
+        "name": "Room-1/Device-3(Light)",
+        "topic": "zigbee2mqtt/device3",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 220,
+        "y": 240,
+        "wires": [
+            [
+                "f118f8d4.9323d8"
+            ]
+        ]
+    },
+    {
+        "id": "f118f8d4.9323d8",
+        "type": "debug",
+        "z": "6dba2425.ee666c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "c5a197e3.853668",
+        "type": "mqtt in",
+        "z": "6dba2425.ee666c",
+        "name": "Room-1/Device-4(Light)",
+        "topic": "zigbee2mqtt/device4",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 220,
+        "y": 320,
+        "wires": [
+            [
+                "f54ffbeb.ef9ac8"
+            ]
+        ]
+    },
+    {
+        "id": "f54ffbeb.ef9ac8",
+        "type": "debug",
+        "z": "6dba2425.ee666c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "4634c2ee.6f388c",
+        "type": "mqtt in",
+        "z": "6dba2425.ee666c",
+        "name": "Room-1/Device-5(Light)",
+        "topic": "zigbee2mqtt/device5",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 220,
+        "y": 400,
+        "wires": [
+            [
+                "636891a0.c4798"
+            ]
+        ]
+    },
+    {
+        "id": "636891a0.c4798",
+        "type": "debug",
+        "z": "6dba2425.ee666c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "1ffd8865.e417c8",
+        "type": "mqtt in",
+        "z": "6dba2425.ee666c",
+        "name": "Room-1/Device-6(Light)",
+        "topic": "zigbee2mqtt/device6",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 220,
+        "y": 480,
+        "wires": [
+            [
+                "698b064c.2f9dd8"
+            ]
+        ]
+    },
+    {
+        "id": "698b064c.2f9dd8",
+        "type": "debug",
+        "z": "6dba2425.ee666c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "61b745d9.239e8c",
+        "type": "ui_button",
+        "z": "472ddc17.a853c4",
+        "name": "Light-1 On",
+        "group": "5f7ee725.56d298",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-1 On",
+        "tooltip": "Click this button to activate light-1",
+        "color": "white",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "ON",
+        "payloadType": "str",
+        "topic": "",
+        "x": 310,
+        "y": 60,
+        "wires": [
+            [
+                "bc60965d.da8848"
+            ]
+        ]
+    },
+    {
+        "id": "1508e941.e39b17",
+        "type": "ui_led",
+        "z": "472ddc17.a853c4",
+        "group": "5f7ee725.56d298",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "label": "Light-1 ",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "OFF",
+                "valueType": "str"
+            },
+            {
+                "color": "green",
+                "value": "ON",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Light-1",
+        "x": 1130,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "51e92017.561ff",
+        "type": "ui_button",
+        "z": "472ddc17.a853c4",
+        "name": "Light-1 Off",
+        "group": "5f7ee725.56d298",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-1 Off",
+        "tooltip": "Click this button to deactivate light-1",
+        "color": "white",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "topic": "",
+        "x": 310,
+        "y": 120,
+        "wires": [
+            [
+                "bc60965d.da8848"
+            ]
+        ]
+    },
+    {
+        "id": "bc60965d.da8848",
+        "type": "mqtt out",
+        "z": "472ddc17.a853c4",
+        "name": "Device7(Switch) to Device-1(Light)",
+        "topic": "zigbee2mqtt/device1",
+        "qos": "",
+        "retain": "",
+        "broker": "279a7c8a.6a25b4",
+        "x": 660,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "fb756dd1.68b9f",
+        "type": "ui_button",
+        "z": "472ddc17.a853c4",
+        "name": "Light-2 On",
+        "group": "5f7ee725.56d298",
+        "order": 6,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-2 On",
+        "tooltip": "Click this button to activate light-2",
+        "color": "white",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "ON",
+        "payloadType": "str",
+        "topic": "",
+        "x": 310,
+        "y": 240,
+        "wires": [
+            [
+                "17fecc2c.8d18b4"
+            ]
+        ]
+    },
+    {
+        "id": "73baa713.454998",
+        "type": "ui_led",
+        "z": "472ddc17.a853c4",
+        "group": "5f7ee725.56d298",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "label": "Light-2",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "OFF",
+                "valueType": "str"
+            },
+            {
+                "color": "green",
+                "value": "ON",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Light-2",
+        "x": 1130,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "7196e1f3.4147b",
+        "type": "ui_button",
+        "z": "472ddc17.a853c4",
+        "name": "Light-2 Off",
+        "group": "5f7ee725.56d298",
+        "order": 7,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-2 Off",
+        "tooltip": "Click this button to deactivate light-2",
+        "color": "white",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "topic": "",
+        "x": 310,
+        "y": 300,
+        "wires": [
+            [
+                "17fecc2c.8d18b4"
+            ]
+        ]
+    },
+    {
+        "id": "17fecc2c.8d18b4",
+        "type": "mqtt out",
+        "z": "472ddc17.a853c4",
+        "name": "Device7(Switch) to Device-2(Light)",
+        "topic": "zigbee2mqtt/device2",
+        "qos": "",
+        "retain": "",
+        "broker": "279a7c8a.6a25b4",
+        "x": 660,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "53e0c59b.be5e2c",
+        "type": "ui_button",
+        "z": "472ddc17.a853c4",
+        "name": "Light-3 On",
+        "group": "5f7ee725.56d298",
+        "order": 9,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-3 On",
+        "tooltip": "Click this button to activate light-3",
+        "color": "white",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "ON",
+        "payloadType": "str",
+        "topic": "",
+        "x": 310,
+        "y": 420,
+        "wires": [
+            [
+                "a542288e.cbfd08"
+            ]
+        ]
+    },
+    {
+        "id": "6cda2b6d.eed9d4",
+        "type": "ui_led",
+        "z": "472ddc17.a853c4",
+        "group": "5f7ee725.56d298",
+        "order": 8,
+        "width": "6",
+        "height": "1",
+        "label": "Light-3",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "OFF",
+                "valueType": "str"
+            },
+            {
+                "color": "green",
+                "value": "ON",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Light-3",
+        "x": 1130,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "8ea0ed63.a5973",
+        "type": "ui_button",
+        "z": "472ddc17.a853c4",
+        "name": "Light-3 Off",
+        "group": "5f7ee725.56d298",
+        "order": 10,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-3 Off",
+        "tooltip": "Click this button to deactivate light-3",
+        "color": "white",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "topic": "",
+        "x": 310,
+        "y": 480,
+        "wires": [
+            [
+                "a542288e.cbfd08"
+            ]
+        ]
+    },
+    {
+        "id": "a542288e.cbfd08",
+        "type": "mqtt out",
+        "z": "472ddc17.a853c4",
+        "name": "Device7(Switch) to Device-3(Light)",
+        "topic": "zigbee2mqtt/device3",
+        "qos": "",
+        "retain": "",
+        "broker": "279a7c8a.6a25b4",
+        "x": 660,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "d0e69bf6.37b0e8",
+        "type": "ui_button",
+        "z": "472ddc17.a853c4",
+        "name": "Light-4 On",
+        "group": "5f7ee725.56d298",
+        "order": 12,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-4 On",
+        "tooltip": "Click this button to activate light-4",
+        "color": "white",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "ON",
+        "payloadType": "str",
+        "topic": "",
+        "x": 310,
+        "y": 600,
+        "wires": [
+            [
+                "ea2c4fc4.7e46a"
+            ]
+        ]
+    },
+    {
+        "id": "eb92693c.822ed8",
+        "type": "ui_led",
+        "z": "472ddc17.a853c4",
+        "group": "5f7ee725.56d298",
+        "order": 11,
+        "width": "6",
+        "height": "1",
+        "label": "Light-4",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "OFF",
+                "valueType": "str"
+            },
+            {
+                "color": "green",
+                "value": "ON",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Light-4",
+        "x": 1130,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "e38a1bb2.1a5fd8",
+        "type": "ui_button",
+        "z": "472ddc17.a853c4",
+        "name": "Light-4 Off",
+        "group": "5f7ee725.56d298",
+        "order": 13,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-4 Off",
+        "tooltip": "Click this button to deactivate light-4",
+        "color": "white",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "topic": "",
+        "x": 310,
+        "y": 660,
+        "wires": [
+            [
+                "ea2c4fc4.7e46a"
+            ]
+        ]
+    },
+    {
+        "id": "ea2c4fc4.7e46a",
+        "type": "mqtt out",
+        "z": "472ddc17.a853c4",
+        "name": "Device7(Switch) to Device-4(Light)",
+        "topic": "zigbee2mqtt/device4",
+        "qos": "",
+        "retain": "",
+        "broker": "279a7c8a.6a25b4",
+        "x": 660,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "1ac8641e.89db9c",
+        "type": "ui_button",
+        "z": "472ddc17.a853c4",
+        "name": "Light-5 On",
+        "group": "5f7ee725.56d298",
+        "order": 16,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-5 On",
+        "tooltip": "Click this button to activate light-5",
+        "color": "white",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "ON",
+        "payloadType": "str",
+        "topic": "",
+        "x": 310,
+        "y": 780,
+        "wires": [
+            [
+                "5708795c.db9d38"
+            ]
+        ]
+    },
+    {
+        "id": "bb97babf.1826a8",
+        "type": "ui_led",
+        "z": "472ddc17.a853c4",
+        "group": "5f7ee725.56d298",
+        "order": 15,
+        "width": "6",
+        "height": "1",
+        "label": "Light-5",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "OFF",
+                "valueType": "str"
+            },
+            {
+                "color": "green",
+                "value": "ON",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Light-5",
+        "x": 1130,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "7bb06144.dadec",
+        "type": "ui_button",
+        "z": "472ddc17.a853c4",
+        "name": "Light-5 Off",
+        "group": "5f7ee725.56d298",
+        "order": 17,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-5 Off",
+        "tooltip": "Click this button to deactivate light-5",
+        "color": "white",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "topic": "",
+        "x": 310,
+        "y": 840,
+        "wires": [
+            [
+                "5708795c.db9d38"
+            ]
+        ]
+    },
+    {
+        "id": "5708795c.db9d38",
+        "type": "mqtt out",
+        "z": "472ddc17.a853c4",
+        "name": "Device7(Switch) to Device-5(Light)",
+        "topic": "zigbee2mqtt/device5",
+        "qos": "",
+        "retain": "",
+        "broker": "279a7c8a.6a25b4",
+        "x": 660,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "3c9805f.df528fa",
+        "type": "ui_button",
+        "z": "472ddc17.a853c4",
+        "name": "Light-6 On",
+        "group": "5f7ee725.56d298",
+        "order": 19,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-6 On",
+        "tooltip": "Click this button to activate light-6",
+        "color": "white",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "ON",
+        "payloadType": "str",
+        "topic": "",
+        "x": 310,
+        "y": 960,
+        "wires": [
+            [
+                "f80e9297.a6e77"
+            ]
+        ]
+    },
+    {
+        "id": "d034270a.1bb4a8",
+        "type": "ui_led",
+        "z": "472ddc17.a853c4",
+        "group": "5f7ee725.56d298",
+        "order": 18,
+        "width": "6",
+        "height": "1",
+        "label": "Light-6",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "OFF",
+                "valueType": "str"
+            },
+            {
+                "color": "green",
+                "value": "ON",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Light-6",
+        "x": 1130,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "63f59760.acbe58",
+        "type": "ui_button",
+        "z": "472ddc17.a853c4",
+        "name": "Light-6 Off",
+        "group": "5f7ee725.56d298",
+        "order": 20,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-6 Off",
+        "tooltip": "Click this button to deactivate light-6",
+        "color": "white",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "topic": "",
+        "x": 310,
+        "y": 1020,
+        "wires": [
+            [
+                "f80e9297.a6e77"
+            ]
+        ]
+    },
+    {
+        "id": "f80e9297.a6e77",
+        "type": "mqtt out",
+        "z": "472ddc17.a853c4",
+        "name": "Device7(Switch) to Device-6(Light)",
+        "topic": "zigbee2mqtt/device6",
+        "qos": "",
+        "retain": "",
+        "broker": "279a7c8a.6a25b4",
+        "x": 660,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "395e6942.273f46",
+        "type": "inject",
+        "z": "472ddc17.a853c4",
+        "name": "OFF",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "x": 150,
+        "y": 120,
+        "wires": [
+            [
+                "51e92017.561ff"
+            ]
+        ]
+    },
+    {
+        "id": "47cf3c3.23203c4",
+        "type": "inject",
+        "z": "472ddc17.a853c4",
+        "name": "OFF",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "x": 150,
+        "y": 300,
+        "wires": [
+            [
+                "7196e1f3.4147b"
+            ]
+        ]
+    },
+    {
+        "id": "3f5a93d6.fa921c",
+        "type": "inject",
+        "z": "472ddc17.a853c4",
+        "name": "OFF",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "x": 150,
+        "y": 480,
+        "wires": [
+            [
+                "8ea0ed63.a5973"
+            ]
+        ]
+    },
+    {
+        "id": "bd7bf50c.fd9508",
+        "type": "inject",
+        "z": "472ddc17.a853c4",
+        "name": "OFF",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "x": 150,
+        "y": 660,
+        "wires": [
+            [
+                "e38a1bb2.1a5fd8"
+            ]
+        ]
+    },
+    {
+        "id": "149a729a.14504d",
+        "type": "inject",
+        "z": "472ddc17.a853c4",
+        "name": "OFF",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "x": 150,
+        "y": 840,
+        "wires": [
+            [
+                "7bb06144.dadec"
+            ]
+        ]
+    },
+    {
+        "id": "4203fec.9bb65",
+        "type": "inject",
+        "z": "472ddc17.a853c4",
+        "name": "OFF",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "x": 150,
+        "y": 1020,
+        "wires": [
+            [
+                "63f59760.acbe58"
+            ]
+        ]
+    },
+    {
+        "id": "1fd73d75.4cd253",
+        "type": "mqtt in",
+        "z": "6dba2425.ee666c",
+        "name": "Room-2/Device-1(Light)",
+        "topic": "zigbee2mqtt/device8",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 220,
+        "y": 560,
+        "wires": [
+            [
+                "a3bacb1.8e22538"
+            ]
+        ]
+    },
+    {
+        "id": "a3bacb1.8e22538",
+        "type": "debug",
+        "z": "6dba2425.ee666c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "a4e2d962.77a1c8",
+        "type": "mqtt in",
+        "z": "6dba2425.ee666c",
+        "name": "Room-2/Device-2(Light)",
+        "topic": "zigbee2mqtt/device9",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 220,
+        "y": 640,
+        "wires": [
+            [
+                "3dc5b126.fb61ae"
+            ]
+        ]
+    },
+    {
+        "id": "3dc5b126.fb61ae",
+        "type": "debug",
+        "z": "6dba2425.ee666c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "ebd0a3f9.48688",
+        "type": "mqtt in",
+        "z": "6dba2425.ee666c",
+        "name": "Room-3/Device-1(Light)",
+        "topic": "zigbee2mqtt/device11",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 220,
+        "y": 720,
+        "wires": [
+            [
+                "5263715e.70b47"
+            ]
+        ]
+    },
+    {
+        "id": "5263715e.70b47",
+        "type": "debug",
+        "z": "6dba2425.ee666c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "1ce72d4b.8c5f13",
+        "type": "mqtt in",
+        "z": "6dba2425.ee666c",
+        "name": "Room-3/Device-2(Light)",
+        "topic": "zigbee2mqtt/device12",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 220,
+        "y": 800,
+        "wires": [
+            [
+                "161922b2.249a9d"
+            ]
+        ]
+    },
+    {
+        "id": "161922b2.249a9d",
+        "type": "debug",
+        "z": "6dba2425.ee666c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "2350f454.3aacac",
+        "type": "mqtt in",
+        "z": "6dba2425.ee666c",
+        "name": "Room-3/Device-3(Light)",
+        "topic": "zigbee2mqtt/device13",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 220,
+        "y": 880,
+        "wires": [
+            [
+                "570e661.6ce3698"
+            ]
+        ]
+    },
+    {
+        "id": "570e661.6ce3698",
+        "type": "debug",
+        "z": "6dba2425.ee666c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "4db93bbd.23b7a4",
+        "type": "ui_button",
+        "z": "a393d8a7.2b0938",
+        "name": "Light-1 On",
+        "group": "cd359591.3d9978",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-1 On",
+        "tooltip": "Click this button to activate light-1",
+        "color": "white",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "ON",
+        "payloadType": "str",
+        "topic": "",
+        "x": 270,
+        "y": 60,
+        "wires": [
+            [
+                "60017633.910288"
+            ]
+        ]
+    },
+    {
+        "id": "534c9aec.13e5d4",
+        "type": "ui_led",
+        "z": "a393d8a7.2b0938",
+        "group": "cd359591.3d9978",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "label": "Light-1 ",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "OFF",
+                "valueType": "str"
+            },
+            {
+                "color": "green",
+                "value": "ON",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Light-1",
+        "x": 1090,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "2a35526a.57c34e",
+        "type": "ui_button",
+        "z": "a393d8a7.2b0938",
+        "name": "Light-1 Off",
+        "group": "cd359591.3d9978",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-1 Off",
+        "tooltip": "Click this button to deactivate light-1",
+        "color": "white",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "topic": "",
+        "x": 270,
+        "y": 120,
+        "wires": [
+            [
+                "60017633.910288"
+            ]
+        ]
+    },
+    {
+        "id": "60017633.910288",
+        "type": "mqtt out",
+        "z": "a393d8a7.2b0938",
+        "name": "Device3(Switch) to Device-1(Light)",
+        "topic": "zigbee2mqtt/device8",
+        "qos": "",
+        "retain": "",
+        "broker": "279a7c8a.6a25b4",
+        "x": 620,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "80db0796.5d3288",
+        "type": "ui_button",
+        "z": "a393d8a7.2b0938",
+        "name": "Light-2 On",
+        "group": "cd359591.3d9978",
+        "order": 5,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-2 On",
+        "tooltip": "Click this button to activate light-2",
+        "color": "white",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "ON",
+        "payloadType": "str",
+        "topic": "",
+        "x": 270,
+        "y": 240,
+        "wires": [
+            [
+                "d4e0e827.4387e8"
+            ]
+        ]
+    },
+    {
+        "id": "4acb9f54.d871d",
+        "type": "ui_led",
+        "z": "a393d8a7.2b0938",
+        "group": "cd359591.3d9978",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "label": "Light-2",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "OFF",
+                "valueType": "str"
+            },
+            {
+                "color": "green",
+                "value": "ON",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Light-2",
+        "x": 1090,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "8da7208f.e2138",
+        "type": "ui_button",
+        "z": "a393d8a7.2b0938",
+        "name": "Light-2 Off",
+        "group": "cd359591.3d9978",
+        "order": 6,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-2 Off",
+        "tooltip": "Click this button to deactivate light-2",
+        "color": "white",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "topic": "",
+        "x": 270,
+        "y": 300,
+        "wires": [
+            [
+                "d4e0e827.4387e8"
+            ]
+        ]
+    },
+    {
+        "id": "d4e0e827.4387e8",
+        "type": "mqtt out",
+        "z": "a393d8a7.2b0938",
+        "name": "Device3(Switch) to Device-2(Light)",
+        "topic": "zigbee2mqtt/device9",
+        "qos": "",
+        "retain": "",
+        "broker": "279a7c8a.6a25b4",
+        "x": 620,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "8d509fa8.a1a68",
+        "type": "inject",
+        "z": "a393d8a7.2b0938",
+        "name": "OFF",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "x": 110,
+        "y": 120,
+        "wires": [
+            [
+                "2a35526a.57c34e"
+            ]
+        ]
+    },
+    {
+        "id": "6f155a6d.daecd4",
+        "type": "inject",
+        "z": "a393d8a7.2b0938",
+        "name": "OFF",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "x": 110,
+        "y": 300,
+        "wires": [
+            [
+                "8da7208f.e2138"
+            ]
+        ]
+    },
+    {
+        "id": "1b928d3a.f2fad3",
+        "type": "ui_button",
+        "z": "ba5417c3.6eda38",
+        "name": "Light-1 On",
+        "group": "914e14af.aed7f8",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-1 On",
+        "tooltip": "Click this button to activate light-1",
+        "color": "white",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "ON",
+        "payloadType": "str",
+        "topic": "",
+        "x": 270,
+        "y": 60,
+        "wires": [
+            [
+                "5f606444.f3bf9c"
+            ]
+        ]
+    },
+    {
+        "id": "c475b007.9dd93",
+        "type": "ui_led",
+        "z": "ba5417c3.6eda38",
+        "group": "914e14af.aed7f8",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "label": "Light-1 ",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "OFF",
+                "valueType": "str"
+            },
+            {
+                "color": "green",
+                "value": "ON",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Light-1",
+        "x": 1090,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "b93c7acd.fd13e8",
+        "type": "ui_button",
+        "z": "ba5417c3.6eda38",
+        "name": "Light-1 Off",
+        "group": "914e14af.aed7f8",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-1 Off",
+        "tooltip": "Click this button to deactivate light-1",
+        "color": "white",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "topic": "",
+        "x": 270,
+        "y": 120,
+        "wires": [
+            [
+                "5f606444.f3bf9c"
+            ]
+        ]
+    },
+    {
+        "id": "5f606444.f3bf9c",
+        "type": "mqtt out",
+        "z": "ba5417c3.6eda38",
+        "name": "Device4(Switch) to Device-1(Light)",
+        "topic": "zigbee2mqtt/device11",
+        "qos": "",
+        "retain": "",
+        "broker": "279a7c8a.6a25b4",
+        "x": 620,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "6044f50c.d0ec7c",
+        "type": "ui_button",
+        "z": "ba5417c3.6eda38",
+        "name": "Light-2 On",
+        "group": "914e14af.aed7f8",
+        "order": 5,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-2 On",
+        "tooltip": "Click this button to activate light-2",
+        "color": "white",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "ON",
+        "payloadType": "str",
+        "topic": "",
+        "x": 270,
+        "y": 240,
+        "wires": [
+            [
+                "a1f6bc91.6e53e"
+            ]
+        ]
+    },
+    {
+        "id": "14706857.955cb8",
+        "type": "ui_led",
+        "z": "ba5417c3.6eda38",
+        "group": "914e14af.aed7f8",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "label": "Light-2",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "OFF",
+                "valueType": "str"
+            },
+            {
+                "color": "green",
+                "value": "ON",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Light-2",
+        "x": 1090,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "fd0e8512.773618",
+        "type": "ui_button",
+        "z": "ba5417c3.6eda38",
+        "name": "Light-2 Off",
+        "group": "914e14af.aed7f8",
+        "order": 6,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-2 Off",
+        "tooltip": "Click this button to deactivate light-2",
+        "color": "white",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "topic": "",
+        "x": 270,
+        "y": 300,
+        "wires": [
+            [
+                "a1f6bc91.6e53e"
+            ]
+        ]
+    },
+    {
+        "id": "a1f6bc91.6e53e",
+        "type": "mqtt out",
+        "z": "ba5417c3.6eda38",
+        "name": "Device4(Switch) to Device-2(Light)",
+        "topic": "zigbee2mqtt/device12",
+        "qos": "",
+        "retain": "",
+        "broker": "279a7c8a.6a25b4",
+        "x": 620,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "1d19b284.a630ed",
+        "type": "ui_button",
+        "z": "ba5417c3.6eda38",
+        "name": "Light-3 On",
+        "group": "914e14af.aed7f8",
+        "order": 8,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-3 On",
+        "tooltip": "Click this button to activate light-3",
+        "color": "white",
+        "bgcolor": "green",
+        "icon": "",
+        "payload": "ON",
+        "payloadType": "str",
+        "topic": "",
+        "x": 270,
+        "y": 420,
+        "wires": [
+            [
+                "9250fdb0.0c518"
+            ]
+        ]
+    },
+    {
+        "id": "e2efbebc.1eedf",
+        "type": "ui_led",
+        "z": "ba5417c3.6eda38",
+        "group": "914e14af.aed7f8",
+        "order": 7,
+        "width": "6",
+        "height": "1",
+        "label": "Light-3",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "OFF",
+                "valueType": "str"
+            },
+            {
+                "color": "green",
+                "value": "ON",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "name": "Light-3",
+        "x": 1090,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "a77030b1.65166",
+        "type": "ui_button",
+        "z": "ba5417c3.6eda38",
+        "name": "Light-3 Off",
+        "group": "914e14af.aed7f8",
+        "order": 9,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "label": "Light-3 Off",
+        "tooltip": "Click this button to deactivate light-3",
+        "color": "white",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "topic": "",
+        "x": 270,
+        "y": 480,
+        "wires": [
+            [
+                "9250fdb0.0c518"
+            ]
+        ]
+    },
+    {
+        "id": "9250fdb0.0c518",
+        "type": "mqtt out",
+        "z": "ba5417c3.6eda38",
+        "name": "Device4(Switch) to Device-3(Light)",
+        "topic": "zigbee2mqtt/device13",
+        "qos": "",
+        "retain": "",
+        "broker": "279a7c8a.6a25b4",
+        "x": 620,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "73bcf08d.c4915",
+        "type": "inject",
+        "z": "ba5417c3.6eda38",
+        "name": "OFF",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "x": 110,
+        "y": 120,
+        "wires": [
+            [
+                "b93c7acd.fd13e8"
+            ]
+        ]
+    },
+    {
+        "id": "3204e7a8.9f2fe8",
+        "type": "inject",
+        "z": "ba5417c3.6eda38",
+        "name": "OFF",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "x": 110,
+        "y": 300,
+        "wires": [
+            [
+                "fd0e8512.773618"
+            ]
+        ]
+    },
+    {
+        "id": "2cf2e8db.68cb58",
+        "type": "inject",
+        "z": "ba5417c3.6eda38",
+        "name": "OFF",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "x": 110,
+        "y": 480,
+        "wires": [
+            [
+                "a77030b1.65166"
+            ]
+        ]
+    },
+    {
+        "id": "7d11adf5.19ff84",
+        "type": "mqtt in",
+        "z": "472ddc17.a853c4",
+        "name": "Room-1/Device-1(Light)",
+        "topic": "zigbee2mqtt/device1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 920,
+        "y": 60,
+        "wires": [
+            [
+                "1508e941.e39b17",
+                "2363d842.4604b8"
+            ]
+        ]
+    },
+    {
+        "id": "2363d842.4604b8",
+        "type": "debug",
+        "z": "472ddc17.a853c4",
+        "name": "Mqtt message",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "360389d4.cc28f6",
+        "type": "mqtt in",
+        "z": "472ddc17.a853c4",
+        "name": "Room-1/Device-2(Light)",
+        "topic": "zigbee2mqtt/device2",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 920,
+        "y": 240,
+        "wires": [
+            [
+                "73baa713.454998",
+                "21af2202.ee96ae"
+            ]
+        ]
+    },
+    {
+        "id": "36d486f1.855b7a",
+        "type": "mqtt in",
+        "z": "472ddc17.a853c4",
+        "name": "Room-1/Device-3(Light)",
+        "topic": "zigbee2mqtt/device3",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 920,
+        "y": 420,
+        "wires": [
+            [
+                "6cda2b6d.eed9d4",
+                "77000458.6b726c"
+            ]
+        ]
+    },
+    {
+        "id": "21af2202.ee96ae",
+        "type": "debug",
+        "z": "472ddc17.a853c4",
+        "name": "Mqtt message",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "77000458.6b726c",
+        "type": "debug",
+        "z": "472ddc17.a853c4",
+        "name": "Mqtt message",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "c4cbf6d6.463a48",
+        "type": "mqtt in",
+        "z": "472ddc17.a853c4",
+        "name": "Room-1/Device-4(Light)",
+        "topic": "zigbee2mqtt/device4",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 920,
+        "y": 600,
+        "wires": [
+            [
+                "eb92693c.822ed8",
+                "f2d7565.53aa8a8"
+            ]
+        ]
+    },
+    {
+        "id": "f2d7565.53aa8a8",
+        "type": "debug",
+        "z": "472ddc17.a853c4",
+        "name": "Mqtt message",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "a7258806.179288",
+        "type": "mqtt in",
+        "z": "472ddc17.a853c4",
+        "name": "Room-1/Device-5(Light)",
+        "topic": "zigbee2mqtt/device5",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 920,
+        "y": 780,
+        "wires": [
+            [
+                "bb97babf.1826a8",
+                "dd5187a1.6aa408"
+            ]
+        ]
+    },
+    {
+        "id": "dd5187a1.6aa408",
+        "type": "debug",
+        "z": "472ddc17.a853c4",
+        "name": "Mqtt message",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "f17b69f6.9e4bf8",
+        "type": "mqtt in",
+        "z": "472ddc17.a853c4",
+        "name": "Room-1/Device-6(Light)",
+        "topic": "zigbee2mqtt/device6",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 920,
+        "y": 960,
+        "wires": [
+            [
+                "d034270a.1bb4a8",
+                "b13b6a92.ed4228"
+            ]
+        ]
+    },
+    {
+        "id": "b13b6a92.ed4228",
+        "type": "debug",
+        "z": "472ddc17.a853c4",
+        "name": "Mqtt message",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "d6bd8cab.87245",
+        "type": "debug",
+        "z": "a393d8a7.2b0938",
+        "name": "Mqtt message",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "b1e2d5e2.23da48",
+        "type": "mqtt in",
+        "z": "a393d8a7.2b0938",
+        "name": "Room-2/Device-1(Light)",
+        "topic": "zigbee2mqtt/device8",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 880,
+        "y": 60,
+        "wires": [
+            [
+                "534c9aec.13e5d4",
+                "d6bd8cab.87245"
+            ]
+        ]
+    },
+    {
+        "id": "6ab26dec.a13224",
+        "type": "debug",
+        "z": "a393d8a7.2b0938",
+        "name": "Mqtt message",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "13daaed5.cffbd1",
+        "type": "mqtt in",
+        "z": "a393d8a7.2b0938",
+        "name": "Room-2/Device-2(Light)",
+        "topic": "zigbee2mqtt/device9",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 880,
+        "y": 240,
+        "wires": [
+            [
+                "4acb9f54.d871d",
+                "6ab26dec.a13224"
+            ]
+        ]
+    },
+    {
+        "id": "91d2f65e.fa7408",
+        "type": "debug",
+        "z": "ba5417c3.6eda38",
+        "name": "Mqtt message",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "b2f1291b.c883b8",
+        "type": "debug",
+        "z": "ba5417c3.6eda38",
+        "name": "Mqtt message",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "5a97208e.96634",
+        "type": "debug",
+        "z": "ba5417c3.6eda38",
+        "name": "Mqtt message",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "f4d6559.627f7a8",
+        "type": "mqtt in",
+        "z": "ba5417c3.6eda38",
+        "name": "Room-3/Device-1(Light)",
+        "topic": "zigbee2mqtt/device11",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 880,
+        "y": 60,
+        "wires": [
+            [
+                "c475b007.9dd93",
+                "91d2f65e.fa7408"
+            ]
+        ]
+    },
+    {
+        "id": "ae21e2b1.6dfb5",
+        "type": "mqtt in",
+        "z": "ba5417c3.6eda38",
+        "name": "Room-3/Device-2(Light)",
+        "topic": "zigbee2mqtt/device12",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 880,
+        "y": 240,
+        "wires": [
+            [
+                "14706857.955cb8",
+                "b2f1291b.c883b8"
+            ]
+        ]
+    },
+    {
+        "id": "d7c01eed.81d31",
+        "type": "mqtt in",
+        "z": "ba5417c3.6eda38",
+        "name": "Room-3/Device-3(Light)",
+        "topic": "zigbee2mqtt/device13",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "279a7c8a.6a25b4",
+        "x": 880,
+        "y": 420,
+        "wires": [
+            [
+                "e2efbebc.1eedf",
+                "5a97208e.96634"
+            ]
+        ]
+    },
+    {
+        "id": "392edd4c.1ca912",
+        "type": "zigbee2mqtt-bridge",
+        "z": "835678ec.519158",
+        "name": "Zigbee2mqtt Bridge",
+        "server": "36393a84.198f86",
+        "topic": null,
+        "x": 280,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    }
+]
